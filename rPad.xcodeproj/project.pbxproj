@@ -1,0 +1,320 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6E86700213531AD30047DE12 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E86700113531AD30047DE12 /* Cocoa.framework */; };
+		6E86700413531AD30047DE12 /* MacRuby.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E86700313531AD30047DE12 /* MacRuby.framework */; };
+		6E86700B13531AD30047DE12 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6E86700913531AD30047DE12 /* InfoPlist.strings */; };
+		6E86700E13531AD30047DE12 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E86700D13531AD30047DE12 /* main.m */; };
+		6E86701213531AD30047DE12 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6E86701013531AD30047DE12 /* MainMenu.xib */; };
+		6E86701513531AD30047DE12 /* rb_main.rb in Resources */ = {isa = PBXBuildFile; fileRef = 6E86701413531AD30047DE12 /* rb_main.rb */; };
+		6E86701713531AD30047DE12 /* AppDelegate.rb in Resources */ = {isa = PBXBuildFile; fileRef = 6E86701613531AD30047DE12 /* AppDelegate.rb */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6E866FFD13531AD30047DE12 /* rPad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = rPad.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E86700113531AD30047DE12 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		6E86700313531AD30047DE12 /* MacRuby.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MacRuby.framework; path = System/Library/Frameworks/MacRuby.framework; sourceTree = SDKROOT; };
+		6E86700813531AD30047DE12 /* rPad-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "rPad-Info.plist"; sourceTree = "<group>"; };
+		6E86700A13531AD30047DE12 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6E86700C13531AD30047DE12 /* rPad-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "rPad-Prefix.pch"; sourceTree = "<group>"; };
+		6E86700D13531AD30047DE12 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6E86701113531AD30047DE12 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		6E86701413531AD30047DE12 /* rb_main.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = rb_main.rb; sourceTree = "<group>"; };
+		6E86701613531AD30047DE12 /* AppDelegate.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = AppDelegate.rb; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6E866FFA13531AD30047DE12 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E86700213531AD30047DE12 /* Cocoa.framework in Frameworks */,
+				6E86700413531AD30047DE12 /* MacRuby.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6E866FF213531AD20047DE12 = {
+			isa = PBXGroup;
+			children = (
+				6E86700613531AD30047DE12 /* rPad */,
+				6E86700013531AD30047DE12 /* Frameworks */,
+				6E866FFE13531AD30047DE12 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6E866FFE13531AD30047DE12 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6E866FFD13531AD30047DE12 /* rPad.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6E86700013531AD30047DE12 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6E86700113531AD30047DE12 /* Cocoa.framework */,
+				6E86700313531AD30047DE12 /* MacRuby.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6E86700613531AD30047DE12 /* rPad */ = {
+			isa = PBXGroup;
+			children = (
+				6E86701613531AD30047DE12 /* AppDelegate.rb */,
+				6E86700F13531AD30047DE12 /* Resources */,
+				6E86701313531AD30047DE12 /* Other Sources */,
+				6E86700713531AD30047DE12 /* Supporting Files */,
+			);
+			path = rPad;
+			sourceTree = "<group>";
+		};
+		6E86700713531AD30047DE12 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6E86700813531AD30047DE12 /* rPad-Info.plist */,
+				6E86700913531AD30047DE12 /* InfoPlist.strings */,
+				6E86700C13531AD30047DE12 /* rPad-Prefix.pch */,
+				6E86700D13531AD30047DE12 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6E86700F13531AD30047DE12 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6E86701013531AD30047DE12 /* MainMenu.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		6E86701313531AD30047DE12 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				6E86701413531AD30047DE12 /* rb_main.rb */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		6E86700513531AD30047DE12 /* Deployment */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "--compile --embed";
+			buildConfigurationList = 6E86701D13531AD30047DE12 /* Build configuration list for PBXLegacyTarget "Deployment" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/local/bin/macruby_deploy;
+			dependencies = (
+			);
+			name = Deployment;
+			passBuildSettingsInEnvironment = 1;
+			productName = Deployment;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXNativeTarget section */
+		6E866FFC13531AD30047DE12 /* rPad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E86701A13531AD30047DE12 /* Build configuration list for PBXNativeTarget "rPad" */;
+			buildPhases = (
+				6E866FF913531AD30047DE12 /* Sources */,
+				6E866FFA13531AD30047DE12 /* Frameworks */,
+				6E866FFB13531AD30047DE12 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = rPad;
+			productName = rPad;
+			productReference = 6E866FFD13531AD30047DE12 /* rPad.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6E866FF413531AD20047DE12 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 6E866FF713531AD20047DE12 /* Build configuration list for PBXProject "rPad" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6E866FF213531AD20047DE12;
+			productRefGroup = 6E866FFE13531AD30047DE12 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6E866FFC13531AD30047DE12 /* rPad */,
+				6E86700513531AD30047DE12 /* Deployment */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6E866FFB13531AD30047DE12 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E86700B13531AD30047DE12 /* InfoPlist.strings in Resources */,
+				6E86701213531AD30047DE12 /* MainMenu.xib in Resources */,
+				6E86701513531AD30047DE12 /* rb_main.rb in Resources */,
+				6E86701713531AD30047DE12 /* AppDelegate.rb in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6E866FF913531AD30047DE12 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E86700E13531AD30047DE12 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6E86700913531AD30047DE12 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6E86700A13531AD30047DE12 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6E86701013531AD30047DE12 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6E86701113531AD30047DE12 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6E86701813531AD30047DE12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		6E86701913531AD30047DE12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		6E86701B13531AD30047DE12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "rPad/rPad-Prefix.pch";
+				INFOPLIST_FILE = "rPad/rPad-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6E86701C13531AD30047DE12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "rPad/rPad-Prefix.pch";
+				INFOPLIST_FILE = "rPad/rPad-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		6E86701E13531AD30047DE12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		6E86701F13531AD30047DE12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6E866FF713531AD20047DE12 /* Build configuration list for PBXProject "rPad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E86701813531AD30047DE12 /* Debug */,
+				6E86701913531AD30047DE12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E86701A13531AD30047DE12 /* Build configuration list for PBXNativeTarget "rPad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E86701B13531AD30047DE12 /* Debug */,
+				6E86701C13531AD30047DE12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6E86701D13531AD30047DE12 /* Build configuration list for PBXLegacyTarget "Deployment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E86701E13531AD30047DE12 /* Debug */,
+				6E86701F13531AD30047DE12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6E866FF413531AD20047DE12 /* Project object */;
+}
